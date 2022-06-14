@@ -1,0 +1,50 @@
+body {
+    padding: 0px;
+    border: 0px;
+}
+* {
+    padding: 0px;
+    border: 0px;
+}
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end; 
+}
+#head header {
+    width:100%;
+    text-align: center;
+}
+#head #logowanie {
+    display: flex;
+    margin: 20px;
+    margin-right:60px ;
+   
+}
+#head #logowanie p {
+    padding: 10px;
+}
+
+#Panele {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-content: stretch;
+}
+
+#Panele article {
+    width: 30%;
+    text-align: center;
+    margin: 1.5%;
+    border: 1px solid black ;
+    height: 300px;
+}
+
+#Panele article form #wysz {
+    padding: 5px;
+    border: 1px solid black ;
+}
+    

@@ -1,0 +1,139 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end; 
+}
+#head header {
+    width:100%;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding:25px;
+}
+#head #logowanie {
+    display: flex;
+    margin: 20px;
+    margin-right:60px ;
+   
+}
+#head #logowanie p {
+    padding: 10px;
+}
+
+#Panele {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-content: stretch;
+}
+
+#Panele article {
+    width: 30%;
+    text-align: center;
+    margin: 1.5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    border: 1px solid black ;
+    height: 300px;
+}
+
+#Panele article form #wysz {
+    padding: 5px;
+    border: 1px solid black ;
+}
+
+#towary {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap:wrap ;
+   
+}
+.produkt form {
+    margin:10px;
+}
+.produkt input[type=submit] {
+background-color: lightgray;
+width: 100%;
+}
+.produkt input[type=submit]:hover {
+    background-color: lightgray;
+    width: 100%;
+    text-decoration: underline;
+    }
+.produkt {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin:10px;
+    width: 15%;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+.produkt img {
+    height: 100px;
+    width:100px;
+    align-self: center;
+}
+.produkt p {
+    width:100%;
+    align-self: center;
+}
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
+
+#main {
+    text-align: center;
+}
+aside a {
+    margin: 10px;
+    padding-top: 16px;
+}
+aside  {
+    border:1px black solid ;
+    text-align: center;
+}
+#align {
+  display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+#logowa {
+    display: flex;
+    width:400px;
+    border: 1px black solid;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logowa input {
+    border: 1px black solid;
+    background-color: lightgrey;
+}
+#logowa input[type=submit]:hover {
+text-decoration: underline;
+}
+#logowa a {
+    border: 1px black solid;
+    background-color: lightgrey;
+}
